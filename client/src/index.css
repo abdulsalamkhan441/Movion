@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+/* hide scrollbars but keep scrolling functional */
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE, Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+  height: 0;
+}
+
+/* vertical text helper */
+.writing-vertical {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
+
+/* Hides scrollbar on Chrome, Edge, Safari */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hides scrollbar on Firefox */
+.no-scrollbar {
+  scrollbar-width: none;
+}

@@ -1,0 +1,13 @@
+# Environment variables (GLOBAL)
+.env
+.env.*
+server/.env
+client/.env
+client/.env.*
+
+# Node
+node_modules/
+
+# Build outputs
+dist/
+build/
