@@ -84,7 +84,7 @@ const WatchQuizPage = () => {
     setStep((prev) => prev + 1);
   };
 
-  const API_BASE = import.meta.env.VITE_API_BASE || "http://localhost:5000";
+  const API_BASE = "http://localhost:5000";
 
   const generateResults = async () => {
     setLoading(true);

@@ -4,6 +4,11 @@
 server/.env
 client/.env
 client/.env.*
+# Environment files
+.env
+.env.local
+.env.development
+.env.production
 
 # Node
 node_modules/
