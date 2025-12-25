@@ -4,7 +4,7 @@ import * as jwtDecode from "jwt-decode";
 
 import EarlyNavbar from "../components/earlynavbar";
 import Footer from "../components/footer";
-import Hero1 from "../sections/hero1";
+import Hero1 from "../sections/hero1.jsx";
 import MovieWheel from "../sections/MovieWheel";
 import ShowcaseSection from "../sections/showcase";
 import StatsSection from "../sections/StatsSection";
