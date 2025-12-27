@@ -28,7 +28,7 @@ const Sidebarlayout = () => {
         `}
       >
         {/* Logo */}
-        <Link to={"/home"}>
+        <Link to={"/dashboard"}>
           <div className="flex flex-col items-center gap-2 text-white mb-4">
           {"MOVION".split("").map((char, i) => (
             <span
@@ -47,7 +47,7 @@ const Sidebarlayout = () => {
             <Link to={"/searchpage"}>
               <Search className="w-7 h-7 hover:text-gray-400 transition" />
             </Link>
-            <Link to={"/home"}>
+            <Link to={"/dashboard"}>
               <Home className="w-7 h-7 hover:text-gray-400 transition" />
             </Link>
             <Link to={"/Watchlater"}>

@@ -51,7 +51,7 @@ function App() {
 
       {/* Protected Routes */}
       <Route
-        path="/home"
+        path="/dashboard"
         element={
           <ProtectedRoute>
             <Home />

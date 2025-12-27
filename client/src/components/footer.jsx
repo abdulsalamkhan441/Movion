@@ -11,7 +11,7 @@ export default function Footer() {
         className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4 text-sm md:text-base font-light tracking-wide"
       >
         {/* Left */}
-        <Link to="/home">
+        <Link to="/dashboard">
           <motion.h1
           whileHover={{ scale: 1.05 }}
           className="font-semibold text-lg cursor-pointer select-none"

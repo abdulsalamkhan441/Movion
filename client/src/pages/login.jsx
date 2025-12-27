@@ -31,7 +31,7 @@ export default function Login() {
 
       localStorage.setItem("token", data.token);
       localStorage.setItem("user", JSON.stringify(data.user));
-      navigate("/home");
+      navigate("/dashboard");
     } catch (err) {
       console.error(err);
       setError("Server error. Please try again.");

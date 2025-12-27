@@ -20,7 +20,7 @@ function LandingPage() {
         const decoded = jwtDecode.default(token);
         if (decoded.exp * 1000 > Date.now()) {
           // Token valid → redirect to home
-          navigate("/home");
+          navigate("/dashboard");
         } else {
           // Token expired → remove it
           localStorage.removeItem("token");
