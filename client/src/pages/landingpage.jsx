@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import * as jwtDecode from "jwt-decode";
+import { jwtDecode } from "jwt-decode";
+
 
 import EarlyNavbar from "../components/earlynavbar";
 import Footer from "../components/footer";
