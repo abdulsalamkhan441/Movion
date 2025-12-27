@@ -189,3 +189,4 @@ This project is for educational and portfolio purposes.
 
 > MOVION is not just a movie app — it is an experience.
 "# Movion" 
+"# Movion" 
