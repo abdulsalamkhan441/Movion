@@ -84,7 +84,7 @@ const WatchQuizPage = () => {
     setStep((prev) => prev + 1);
   };
 
-  const API_BASE = "http://movion-backend2.onrender.com";
+  const API_BASE = "https://movion-backend3.onrender.com/";
 
   const generateResults = async () => {
     setLoading(true);
