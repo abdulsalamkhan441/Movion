@@ -8,16 +8,23 @@ export default defineConfig({
     tailwindcss(),
   ],
 
-  // Make sure Vite copies everything from /public into /dist
+  // This ensures Vite copies everything from /public into /dist
   publicDir: "public",
+
+  build: {
+    rollupOptions: {
+      output: {
+        // Prevent Vite from rewriting or removing unknown files
+        assetFileNames: "[name].[ext]",
+      },
+    },
+  },
 
   server: {
     port: 5173,
     strictPort: true,
     host: "localhost",
     hmr: { protocol: "ws", host: "localhost" },
-
-    // Dev-only backend proxy
     proxy: {
       "/api": {
         target: "http://localhost:5000",
