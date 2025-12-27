@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Homehero from "../sections/hero1.jsx";
+import Homehero from "../sections/homehero.jsx";
 import Sidebarlayout from "../components/SidebarLayout";
 import MovieRow from "../components/MovieRow";
 import Footer from "../components/footer";
